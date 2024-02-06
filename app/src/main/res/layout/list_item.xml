@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="4dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+        <TextView
+            android:id="@+id/text_view_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:text="Nama   :"
+            android:textSize="23sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/text_view_npm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Npm              :"/>
+
+        <TextView
+            android:id="@+id/text_view_nilai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nilai               :" />
+
+        <TextView
+            android:id="@+id/text_view_keterangan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keterangan  :" />
+
+        <TextView
+            android:id="@+id/text_view_jumlahsks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah SKS :" />
+
+        <TextView
+            android:id="@+id/text_view_hargasks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Harga SKS   : Rp." />
+
+        <TextView
+            android:id="@+id/text_view_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total              :" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
